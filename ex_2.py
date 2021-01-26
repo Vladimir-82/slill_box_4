@@ -6,3 +6,10 @@
 # https://docs.python.org/3/library/stdtypes.html#str.join
 
 # TODO здесь ваш код
+
+
+
+
+
+neibors = ["Иннокентий Петрович", "Петр Петрович", "Ибрагим"]
+print('На районе живут:', ", ".join(neibors))

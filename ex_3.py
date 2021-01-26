@@ -16,3 +16,16 @@
 # Если не хватает инградиентов - создать соответствующие функции в модуле my_burger
 
 # TODO здесь ваш код
+
+def burger(*args, my_burger):
+    print('Возьмем', my_burger[0])
+    for arg in args:
+        print('добавим:', arg)
+        my_burger.append(arg)
+
+    return 'Мой бургер состоит из', my_burger
+
+bread = ['Булочки']
+ingred = ('конлеты', 'огурчик', 'сыр', 'говядина')
+
+print(burger(ingred, my_burger = bread))
