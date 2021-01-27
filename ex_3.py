@@ -17,12 +17,12 @@
 
 # TODO здесь ваш код
 
-def burger(*args, my_burger):
+def burger(args, my_burger):
     print('Возьмем', my_burger[0])
     for arg in args:
         print('добавим:', arg)
         my_burger.append(arg)
-
+        print()
     return 'Мой бургер состоит из', my_burger
 
 bread = ['Булочки']
